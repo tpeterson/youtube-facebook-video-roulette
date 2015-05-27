@@ -1,0 +1,107 @@
+#container {
+  border: solid 1px black;
+  clear: both;
+  padding: 0;
+  max-width: 642px;
+  margin: auto;
+}
+
+#title {
+  clear: both;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#headline {
+	font-weight: 600;
+  font-size: 24px;
+  font-variant: small-caps;
+  font-family: "TiemposText-Regular","Tiempos Text Regular",Georgia,"Times New Roman",Times,serif;
+}
+
+#deck {
+  font-size: 16px;
+  text-indent: 5px;
+  padding-top: 1em;
+  font-family: "TiemposText-Regular","Tiempos Text Regular",Georgia,"Times New Roman",Times,serif;
+}
+
+button {
+border-top: 1px solid #b0b0b0;
+   background: #b0b0b0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b0b0b0), to(#b0b0b0));
+   background: -webkit-linear-gradient(top, #b0b0b0, #b0b0b0);
+   background: -moz-linear-gradient(top, #b0b0b0, #b0b0b0);
+   background: -ms-linear-gradient(top, #b0b0b0, #b0b0b0);
+   background: -o-linear-gradient(top, #b0b0b0, #b0b0b0);
+   padding: 3.5px 7px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: block;
+  width: 15%;
+  height: 3em;
+  margin:0 auto;
+}
+
+button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+#facebook, #youtube {
+  clear: both;
+  padding-top: 1em;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}        
+
+#fb_header {
+  font-size: 24px;
+  color: blue;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+#yt_header {
+  font-size: 24px;
+  color: red;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+#fb_title, #yt_title, #fb_date, #yt_date, #fb_length, #yt_length, #fb_views, #yt_views {
+  font-family: "TiemposText-Regular","Tiempos Text Regular",Georgia,"Times New Roman",Times,serif;
+  text-align: center;
+  width: 98%;
+  margin: auto;
+}
+
+#fb_vid, #yt_vid {
+	display: block;
+  width: 480px;
+  margin: 2% auto;
+}
+
+#fb_mobilevid, #yt_mobilevid, #fb_largevid, #yt_largevid {
+  display: none;
+}
