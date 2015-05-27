@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/max320.css" media="(max-width: 320px)" rel="stylesheet" />
+  <link href="css/min321.css" media="(min-width: 321px) and (max-width: 500px)" rel="stylesheet" />
+  <link href="css/min540.css" media="(min-width: 501px) and (max-width: 641px)" rel="stylesheet" />
+  <link href="css/min640.css" media="(min-width: 642px)" rel="stylesheet" />
+</head>
+<body>
+  <div id="container">
+    <div id="title">
+      <div id="headline">
+        Facebook vs. YouTube: NFL Edition
+      </div>
+      <div id="deck">
+        <p>The videos the NFL has uploaded to Facebook since December 2014 are averaging 4,700% more views per video than those posted to its YouTube channel since February 2015. Why?</p> 
+
+        <p>To get a better idea of the answer, we've juxtaposed one of the NFL's Facebook videos with one of its YouTube videos to see how they compare below. Hit refresh to check out more clips chosen at random.</p>
+      </div>
+    </div>
+
+    <div id="refresh_button" onclick="refreshVideos()">
+      <button>Refresh</button>
+    </div>
+
+    <div id="facebook">
+      <div id="fb_header">
+        Facebook
+      </div>
+      <div id="fb_title"></div>
+      <div id="fb_date"></div>
+      <div id="fb_length"></div>
+      <div id="fb_views"></div>
+      <div id="fb_vid"></div>
+      <div id="fb_mobilevid"></div>
+      <div id="fb_largevid"></div>
+    </div>
+
+    <div id="youtube">
+      <div id="yt_header">
+        YouTube
+      </div>
+      <div id="yt_title"></div>
+      <div id="yt_date"></div>
+      <div id="yt_length"></div>
+      <div id="yt_views"></div>
+      <div id="yt_vid"></div>
+      <div id="yt_mobilevid"></div>
+      <div id="yt_largevid"></div>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="js/request_text.js"></script>
+</body>
+</html>
